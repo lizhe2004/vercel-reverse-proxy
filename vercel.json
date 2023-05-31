@@ -8,7 +8,7 @@
           "value":"(?<authorized>123456|98765)"
         }
       ],
-      "destination": "http://gpt-api.lizhe.io/:authorized"},
+      "destination": "http://gpt-api.lizhe.io/:authorized*"},
  { "source": "/:path*", "destination": "https://api.openai.com/:path*" }
   
   ]
