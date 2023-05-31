@@ -4,7 +4,7 @@
        { "source": "imgs?url=:path*", "destination": ":path*" ,
           setHeaders: (res, path, proxyRes) => {
         res.setHeader('Referer', 'https://www.iqiyi.com/');
-      },
+      }
     }
 
   ]
