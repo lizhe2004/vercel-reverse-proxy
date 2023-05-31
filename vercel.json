@@ -3,13 +3,7 @@
     { "source": "/:path*", "destination": "https://api.openai.com/:path*" },
     { "source": "/imgs/:path*", 
      
-           "has": [
-        {
-          "type": "query",
-          "key": "url",
-          "value":"123"
-        }
-      ],
+ 
      
      "destination": "http://imgs.huahuaxia.net/picgo0_KTrjpHHtRfvQuDUD.jpg"}
 
