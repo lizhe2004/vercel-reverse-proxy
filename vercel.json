@@ -1,6 +1,6 @@
 {
   "rewrites": [
-     { "source": "/imgs*",  
+     { "source": "/imgs",  
        "has": [
         {
           "type": "query",
