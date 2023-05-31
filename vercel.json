@@ -5,10 +5,10 @@
         {
           "type": "query",
           "key": "url",
-          "value":"(?<img>123456)"
+          "value":"123456"
         }
       ],
-      "destination": "http://gpt-api.lizhe.io/:img"},
+      "destination": "http://gpt-api.lizhe.io/23456"},
  { "source": "/:path*", "destination": "https://api.openai.com/:path*" }
   
   ]
