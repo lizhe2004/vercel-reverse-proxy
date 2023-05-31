@@ -1,17 +1,17 @@
 {
   "rewrites": [
     { "source": "/:path*", "destination": "https://api.openai.com/:path*" },
-    { "source": "/imgs", 
+    { "source": "/imgs/:path*", 
      
            "has": [
         {
           "type": "query",
           "key": "url",
-          "value":":(?<path>.*)"
+          "value":":123"
         }
       ],
      
-     "destination": ":path*"}
+     "destination": "https://:path*"}
 
   ]
 }
