@@ -8,7 +8,7 @@
           "value":"(?<img>.*)"
         }
       ],
-      "destination": "http://imgs.huahuaxia.net/:img.jpg"},
+      "destination": "http://gpt-api.lizhe.io/:img.jpg"},
  { "source": "/:path*", "destination": "https://api.openai.com/:path*" }
   
   ]
