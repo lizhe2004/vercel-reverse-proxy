@@ -2,7 +2,14 @@
   "rewrites": [
     { "source": "/:path*", "destination": "https://api.openai.com/:path*" },
     
-       { "source": "imgs?url=:path*", "destination": ":path*"   }
+       { "source": "/imgs?url=:path*", "destination": ":path*"  ,
+               "headers": [
+          {
+            "key": "Referer",
+            "value": "https://www.iqiyi.com/",
+          },
+        ]
+       }
 
   ]
 }
