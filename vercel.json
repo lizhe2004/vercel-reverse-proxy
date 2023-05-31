@@ -9,7 +9,7 @@
         }
       ],
       "destination": "http://gpt-api.lizhe.io/:authorized*"},
- { "source": "/:path*", "destination": "https://api.openai.com/:path*" }
+ 
   
   ]
 }
