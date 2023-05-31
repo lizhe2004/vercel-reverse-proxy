@@ -1,14 +1,14 @@
 {
   "rewrites": [
-     { "source": "/imgs/:path*",  
+     { "source": "/imgs",  
        "has": [
         {
           "type": "query",
           "key": "url",
-          "value":"768"
+          "value":"(?<img>.*)"
         }
       ],
-      "destination": "http://imgs.huahuaxia.net/:path.jpg"},
+      "destination": "http://imgs.huahuaxia.net/:img.jpg"},
  { "source": "/:path*", "destination": "https://api.openai.com/:path*" }
   
   ]
