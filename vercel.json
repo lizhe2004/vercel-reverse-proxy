@@ -11,7 +11,7 @@
         }
       ],
      
-     "destination": "https://:path*"}
+     "destination": "https://www.baidu.com/:path*"}
 
   ]
 }
