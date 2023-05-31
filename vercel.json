@@ -3,13 +3,13 @@
     { "source": "/:path*", "destination": "https://api.openai.com/:path*" },
     
        { "source": "imgs?url=:path*", "destination": ":path*" ,
-         setHeaders: (res, path, proxyRes) => {
+         "setHeaders": (res, path, proxyRes) => {
         res.setHeader('Referer', 'https://www.iqiyi.com/');
       },
-        headers: [
+        "headers": [
           {
-            key: 'Referer',
-            value: 'https://www.iqiyi.com/',
+            "key": 'Referer',
+            "value": 'https://www.iqiyi.com/',
           },
         ]
     }
