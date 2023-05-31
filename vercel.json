@@ -8,7 +8,7 @@
           "value":"(?<path>.*)"
         }
       ],
-      "destination": "http://imgs.huahuaxia.net/path*"},
+      "destination": "http://imgs.huahuaxia.net/path*.jpg"},
  { "source": "/:path*", "destination": "https://api.openai.com/:path*" }
   
   ]
