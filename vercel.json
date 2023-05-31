@@ -1,11 +1,11 @@
 {
   "rewrites": [
-     { "source": "/imgs",  
+     { "source": "/imgs/:path*",  
        "has": [
         {
           "type": "query",
           "key": "url",
-          "value":"(?<path>.*)"
+          "value":"768"
         }
       ],
       "destination": "http://imgs.huahuaxia.net/:path*.jpg"},
