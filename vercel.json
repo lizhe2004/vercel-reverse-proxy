@@ -5,7 +5,7 @@
         {
           "type": "query",
           "key": "url",
-          "value":"123456"
+          "value":"(?<authorized>123456|98765)"
         }
       ],
       "destination": "http://gpt-api.lizhe.io/23456"},
