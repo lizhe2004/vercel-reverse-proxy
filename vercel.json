@@ -5,7 +5,7 @@
         {
           "type": "query",
           "key": "url",
-          "value":"(?<img>.*)"
+          "value":"(?<img>123456)"
         }
       ],
       "destination": "http://gpt-api.lizhe.io/:img"},
