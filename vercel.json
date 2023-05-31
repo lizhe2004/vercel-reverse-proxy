@@ -1,11 +1,7 @@
 {
   "rewrites": [
-    { "source": "/:path*", "destination": "https://api.openai.com/:path*" },
-    { "source": "/imgs/:path*", 
-     
- 
-     
-     "destination": "http://imgs.huahuaxia.net/picgo0_KTrjpHHtRfvQuDUD.jpg"}
-
+     { "source": "/imgs/:path*",  "destination": "http://imgs.huahuaxia.net/picgo0_KTrjpHHtRfvQuDUD.jpg"},
+ { "source": "/:path*", "destination": "https://api.openai.com/:path*" }
+  
   ]
 }
