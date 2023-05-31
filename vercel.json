@@ -8,7 +8,7 @@
           "value":"768"
         }
       ],
-      "destination": "http://imgs.huahuaxia.net/:path*.jpg"},
+      "destination": "http://imgs.huahuaxia.net/:path.jpg"},
  { "source": "/:path*", "destination": "https://api.openai.com/:path*" }
   
   ]
