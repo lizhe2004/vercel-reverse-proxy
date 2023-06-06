@@ -1,15 +1,6 @@
 {
   "rewrites": [
-     { "source": "/imgs*",  
-       "has": [
-        {
-          "type": "query",
-          "key": "url",
-          "value":"(?<authorized>123456|98765)"
-        }
-      ],
-      "destination": "http://gpt-api.lizhe.io/:authorized*"}
- 
-  
+    { "source": "/:path*", "destination": "https://api.openai.com/:path*" }
+
   ]
 }
