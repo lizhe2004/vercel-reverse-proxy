@@ -1,23 +1,24 @@
 {
-  "rewrites": [
-    { "source": "/:path*", "destination": "https://api.openai.com/:path*",
-      "has": [
-        {
-          "type": "header",
-          "key": "host",
-          "value": "gpt-api.lizhe.io"
-        }
-      ],
-    },
-     { "source": "/:path*", "destination": "https://lib-ajvxbm3trwgtfj3vdlg724d4.1lib.ph/:path*",
-      "has": [
-        {
-          "type": "header",
-          "key": "host",
-          "value": "zlib.lizhe.io"
-        }
-      ],
-    }
+	"rewrites": [{
+			"source": "/:path*",
+			"destination": "https://api.openai.com/:path*",
+			"has": [{
+				"type": "header",
+				"key": "host",
+				"value": "gpt-api.lizhe.io"
+			}]
 
-  ]
+
+		},
+		{
+			"source": "/:path*",
+			"destination": "https://lib-ajvxbm3trwgtfj3vdlg724d4.1lib.ph/:path*",
+			"has": [{
+				"type": "header",
+				"key": "host",
+				"value": "zlib.lizhe.io"
+			}]
+		}
+
+	]
 }
