@@ -12,11 +12,11 @@
 		},
 		{
 			"source": "/:path*",
-			"destination": "https://lib-ajvxbm3trwgtfj3vdlg724d4.1lib.ph/:path*",
+			"destination": "https://generativelanguage.googleapis.com/:path*",
 			"has": [{
 				"type": "header",
 				"key": "host",
-				"value": "zlib.lizhe.io"
+				"value": "gemini-api.lizhe.io"
 			}]
 		}
 
